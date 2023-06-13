@@ -14,3 +14,6 @@ Base de datos-Acceso
 localhost:8080/h2-console/login.jsp
 UserName: sa
 Password: sa2
+
+Funcionamiento
+funcionamiento.mkv
