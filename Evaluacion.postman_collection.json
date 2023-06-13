@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "babcb62b-a04a-42e1-86cc-54e7a81eed3e",
+		"name": "Evaluacion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12415061"
+	},
+	"item": [
+		{
+			"name": "Crear Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"sssAlfonso\",\r\n\"email\": \"fffe@aa.col\",\r\n\"password\": \"ee2Ge\",\r\n\"telefonos\": [\r\n{\r\n\"numero\": \"32235555\",\r\n\"codigoCiudad\": \"02\",\r\n\"codigoPais\": \"56\"\r\n},\r\n{\r\n\"numero\": \"123456789\",\r\n\"codigoCiudad\": \"55\",\r\n\"codigoPais\": \"66\"\r\n}\r\n]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/persona/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"persona",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"sssAlfonso\",\r\n\"email\": \"ffffe@aa.col\",\r\n\"password\": \"123\",\r\n\"telefonos\": [\r\n{\r\n\"numero\": \"32235555\",\r\n\"codigoCiudad\": \"02\",\r\n\"codigoPais\": \"56\"\r\n},\r\n{\r\n\"numero\": \"123456789\",\r\n\"codigoCiudad\": \"55\",\r\n\"codigoPais\": \"66\"\r\n}\r\n]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/persona/modificar",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"persona",
+						"modificar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
